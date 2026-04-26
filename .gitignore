@@ -1,0 +1,45 @@
+# Large data files — never commit these
+*.parquet
+*.csv
+*.h5
+*.hdf5
+*.feather
+*.pkl
+*.pickle
+
+# Model artifacts
+*.cbm
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Credentials & secrets
+.env
+secrets.py
+access_token.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Output folders with generated data
+MATCHING_ORACLE/
+full_history_test/
+backtest_data*/
+run_outputs/
